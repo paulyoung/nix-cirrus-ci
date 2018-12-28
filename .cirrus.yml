@@ -1,0 +1,4 @@
+task:
+  container:
+    image: nixos/nix
+    script: nix run -f channel:nixos-18.09 hello -c hello
